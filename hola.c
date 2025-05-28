@@ -2,4 +2,5 @@
 
 int main() {
     printf("Hola mundo");
+    printf("Como estas?");
 }
