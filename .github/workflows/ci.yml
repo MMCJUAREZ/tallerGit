@@ -1,0 +1,10 @@
+name: Integracion continua
+on: push
+jobs:
+  compilar-y-ejecutar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+      - name: Compilar codigo
+        run: gcc hola.c -o hola
