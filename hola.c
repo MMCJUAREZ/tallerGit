@@ -3,7 +3,7 @@
 int main() {
     printf("Hola mundo");
     printf("\nComo estas?");
-    printf("\Octavio estuvo aquí")
+    printf("\Octavio estuvo aquí");
 }
 
 int suma(int n){
